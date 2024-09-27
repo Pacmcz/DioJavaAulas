@@ -1,4 +1,4 @@
-package BootCampClaro;
+package BootCampClaro.aulas;
 
 public class AnatomiaClass3 {
 

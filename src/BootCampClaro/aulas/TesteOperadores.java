@@ -1,4 +1,4 @@
-package BootCampClaro;
+package BootCampClaro.aulas;
 
 public class TesteOperadores {
     public static void main(String[] args) {

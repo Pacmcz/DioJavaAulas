@@ -1,4 +1,4 @@
-package BootCampClaro;
+package BootCampClaro.aulas;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {
