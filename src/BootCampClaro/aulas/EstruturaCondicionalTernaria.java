@@ -2,21 +2,17 @@ package BootCampClaro.aulas;
 
 import java.util.Scanner;
 
-public class EstruturaCondicionalComposta {
+public class EstruturaCondicionalTernaria {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         double nota;
-        System.out.println("Digite a nota do aluno: ");
+        System.out.println("Digite uma nota: ");
         nota = entrada.nextDouble();
 
-        if ( nota < 7)
-            System.out.println("Reprovado");
+        String resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota <7 ? "Recuperação" : "Reprovado";
 
-        else
-            System.out.println("Aprovado");
-
+        System.out.println(resultado);
 
         entrada.close();
     }
-
 }
