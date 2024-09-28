@@ -1,5 +1,6 @@
 package BootCampClaro.aulas;
 
+import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -21,6 +22,7 @@ public class TryCatch {
             double tamanho = entrada.nextDouble();
 
             System.out.println("Olá, meu nome é " + nome.toUpperCase() + " " + sobrenome.toUpperCase());
+            System.out.println("A minha idade é " + idade+ " anos" + " e tenho " + tamanho + "m de altura.");
 
         } catch (InputMismatchException e) {
             System.out.println("Os campos idade e altura precisam ser numéricos");
