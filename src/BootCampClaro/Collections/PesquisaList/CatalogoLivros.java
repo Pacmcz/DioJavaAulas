@@ -65,15 +65,10 @@ public class CatalogoLivros {
 
         System.out.println(c.pesquisarPorAutor("Autor4"));
 
-
         System.out.println(c.pesquisarPorTitulo("Livro3"));
 
         System.out.println(c.pesqisarPorIntervaloAnos(1990, 2000));
 
     }
-
-
-
-
 }
 

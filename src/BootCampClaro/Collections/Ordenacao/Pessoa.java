@@ -38,9 +38,7 @@ public class Pessoa implements Comparable<Pessoa>  {
                 "| altura = " + altura +
                 "|\n";
     }
-
 }
-
 
 class ComparatorPorAltura implements Comparator<Pessoa> {
 

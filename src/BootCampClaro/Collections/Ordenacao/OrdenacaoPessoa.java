@@ -40,7 +40,6 @@ public class OrdenacaoPessoa {
         System.out.println(ordenacaoPessoa.ordenarPorIdade());
         System.out.println("=================================");
         System.out.println(ordenacaoPessoa.ordenarPorAltura());
-
     }
 
 
